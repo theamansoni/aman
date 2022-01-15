@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   
+     Scanner sc = new Scanner(System.in);
+     double total ;
+     System.out.println("Please enter the marks out of 20 of every subject");
+     System.out.println("Enter your 1st subject marks");
+     int mrk1 = sc.nextInt();
+     
+     System.out.println("Enter your 2nd subject marks");
+     int mrk2 = sc.nextInt();
+     
+     System.out.println("Enter your 3rd subject marks");
+     int mrk3 = sc.nextInt();
+     
+     System.out.println("Enter your 4th subject marks");
+     int mrk4 = sc.nextInt();
+	 
+	 System.out.println("Enter your 5th subject marks");
+     int mrk5 = sc.nextInt();
+     
+     float sum = mrk1+mrk2+mrk3+mrk4+mrk5;
+     float sum1 = sum/100;
+     total = sum1*100;
+     
+     
+     
+     System.out.println("The marks you entered is ");
+     System.out.println("subject 1 " +mrk1);
+     System.out.println("subject 2 " +mrk2);
+     System.out.println("subject 3 " +mrk3);
+     System.out.println("subject 4 " +mrk4);
+	 System.out.println("subject 5 " +mrk5);
+	 System.out.println("total percentage is " +total);
+		
+		
+	}
+}
