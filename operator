@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+
+// 		int a =4;
+// 		int b = 5;
+// 		b *= 2;
+// 		System.out.println(b);
+
+    //System.out.println(66>6); //Comparable operator 
+    System.out.println(64>5 && 6>8); //( 1st and 2nd both conditons have to true)
+    System.out.println(55>5 || 66<6); // any one is true it will exicute and return true 
+    System.out.println(2&3);// not important 
+    
+    
+
+		
+		
+		
+	}
+}
