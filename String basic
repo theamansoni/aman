@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    //string entered by user 
+	    Scanner sc = new Scanner(System.in);
+	    String str = sc.nextLine();
+	    System.out.println(str);
+	    
+	    //String only 
+	    String name = sc.next();
+	    System.out.println("Stringyou entered is " +name);
+	    
+	    //define string 
+	    String str1 = "aman soni";
+	    System.out.println(str1);
+	   //methord 2 
+	   String str2 = new String("hello world ");
+	   System.out.println(str2);
+	   
+	   
+	   
+
+
+
+
+
+
+
+	}
+}
