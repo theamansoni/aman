@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+     
+     String str = "Aman Soni";
+     int val = str.length(); //find the length of string
+     System.out.println(val);
+     
+     String name = "Aman Soni";
+     String value = name.toLowerCase(); //change the strng into LowerCase
+     System.out.println(value);
+	   
+
+     String name1 = "Aman Soni";
+     String value1 = name.toUpperCase(); //change the String into UpperCase
+     System.out.println(value1);
+
+     
+     String nontrimmedstring = "        Aman       ";
+     System.out.println(nontrimmedstring);
+     //we usenontrimedstring function for removing the spaces from String
+     String clearString = nontrimmedstring.trim();//trim method
+	 System.out.println(clearString);
+	 
+	 
+	 String Newname = "amansoni";
+	 System.out.println(Newname.substring(2)); //substring methors print string  index2 to end
+	 
+	  String Newname1 = "helloamansoni";
+	 System.out.println(Newname1.substring(5,9));//from to index 
+
+
+ String ans = "pawan";
+  System.out.println(ans.replace('p', 'S'));//replace the char in String
+ //methors 2 
+  String ans2 = "pawan";
+  System.out.println(ans2.replace("pawan", "tarun"));//change the multiple char from an string by using double corts " "
+
+  String name ="Aman";
+  System.out.println(name.startsWith("Am"));//return bollean value startswith 
+  System.out.println(name.endsWith("m"));//endswith methors retur boolean value 
+   
+//return -1if you enterd worng input
+String name = "Aman soni";
+System.out.println(name.charAt(5));//return the index value of string
+System.out.println(name.indexOf("n")); //return the indexvalue 
+System.out.println(name.indexOf("a" , 1));//same as but the 1 is means start counting aftr the index value 1
+
+	 
+	}
+}
