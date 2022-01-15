@@ -1,0 +1,50 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+//question 1
+// 	int a =20;
+// 	int b =30;
+// 	int c =40;
+// 	 int sum = a+b+c;
+// 	 System.out.println(sum);
+
+	 
+//question 2
+
+// float sub1 =80;
+// float sub2 =80;
+// float sub3 =80;
+// float sub4 =80;
+
+// float cgpa = (sub1+sub2+sub3+sub4)/40;
+// System.out.println("your cgpa is " +cgpa);
+
+
+//question 3 
+
+// System.out.println("what is your name ");
+// Scanner sc = new Scanner(System.in);
+// String str = sc.next();
+// System.out.println("Hello " + str +" Have a good Day you are so cute  ");
+
+//question 4 KM to miles 
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter the distance in km ");
+// double km = sc.nextDouble();
+// double miles = km*0.62137d;
+// System.out.println("Your distancein miles is " +miles);
+
+
+// question 5 check the entered number is ineger or not 
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("enter the values ");
+// boolean a = sc.hasNextFloat();
+// System.out.println(a);
+// // System.out.println("if false :- the no is not an Integer number ");
+// // System.out.println("if true :- the no is  an Integer number ");
+
+	}
+}
