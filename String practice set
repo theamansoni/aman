@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	      //practice set 
+// 	  String str = " Aman  Soni  talbehat ";
+// 	  String count = str.toLowerCase();// convrt into lower case
+// 	  System.out.println(str.replace(' ','_' ));  //change the spaces into underscores
+	  
+
+	   //Scanner sc = new Scanner(System.in);
+	   //String str = sc.nextLine();
+	   ////System.out.println(letter.replace("name" ,"Aman"));
+	   //System.out.printf("helo %s , How are you ? " , str);
+	   
+	   
+	   //find the single and double spaces
+	   //String str = "this string contain   double    and triple spaces ";
+	   //System.out.println(str.indexOf(" "));
+	   //System.out.println(str.indexOf("      "));//if not the return -1 
+	   
+	   
+	   //change the string into a letter ClassFormatError
+	   //String str = " Dear,\n\tThis java course is nice! \n\t Thanks ";
+	   //System.out.println(str);
+	  
+
+	    
+	 
+	
+	}
+}
