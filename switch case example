@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	 System.out.println(" Enter your age ");
+     Scanner sc = new Scanner(System.in);
+     int age= sc.nextInt();
+     
+     switch(age){
+         case 18:
+                  System.out.println("you are going to become an adult");break;
+         case 23:
+                 System.out.println("you are hero");break;
+         case 65:
+                 System.out.println("enjoy your life ");break;
+          default:
+                 System.out.println("enter an valid input ");break;
+             
+     }
+	}
+}
